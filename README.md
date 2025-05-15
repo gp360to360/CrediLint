@@ -7,9 +7,7 @@ File upload functionality with PDF validation
 
 Form data persistence using PostgreSQL
 
-Robust error handling and user feedback mechanisms
 
-Modular and scalable codebase
 
 🚀 Getting Started
 Prerequisites
@@ -25,7 +23,7 @@ Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/gpd60to360/CrediLint.git
+git clone https://github.com/gp360to360/CrediLint.git
 cd CrediLint
 Install dependencies:
 
@@ -39,18 +37,7 @@ pnpm install
 # For the backend
 cd ../backend
 npm install
-Configure environment variables:
-Create a .env file in the backend directory with the following content:
 
-env
-Copy
-Edit
-DB_HOST=localhost
-DB_PORT=5432
-DB_USERNAME=your_db_username
-DB_PASSWORD=your_db_password
-DB_DATABASE=your_db_name
-Run the application:
 
 bash
 Copy
@@ -65,5 +52,5 @@ npm run start:dev
 cd ../frontend
 
 pnpm run dev
-📁 Project Structure
+
 
