@@ -57,25 +57,13 @@ Copy
 Edit
 # Start the backend server
 cd backend
+
 npm run start:dev
 
 # Start the frontend development server
+
 cd ../frontend
+
 pnpm run dev
 📁 Project Structure
 
-sme-health-check/
-├── frontend/           # React application
-│   ├── public/
-│   └── src/
-├── backend/            # NestJS application
-│   ├── src/
-│   │   ├── form/
-│   │   │   ├── dto/
-│   │   │   ├── entities/
-│   │   │   ├── form.controller.ts
-│   │   │   ├── form.module.ts
-│   │   │   ├── form.service.ts
-│   │   │   └── form.repository.ts
-│   └── uploads/        # Uploaded files
-└── README.md
